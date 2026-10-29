@@ -1,0 +1,29 @@
+{
+  "pipeline": "retail-ai-sales-intelligence",
+  "status": "completed",
+  "input_path": "C:\\Users\\user\\Downloads\\Retail_AI_Sales_Intelligence_All_Files\\Project\\retail-ai-sales-intelligence-v2\\data\\retail_transactions.csv",
+  "output_dir": "artifacts",
+  "transactions": 5000,
+  "customers": 699,
+  "products": 60,
+  "forecast_products_requested": 5,
+  "forecast_products_completed": 5,
+  "n_customer_clusters": 4,
+  "inventory_lead_time_days": 7,
+  "inventory_service_level": 0.95,
+  "outputs": [
+    "sales_summary.json",
+    "customer_segments.csv",
+    "customer_segment_profiles.csv",
+    "demand_forecasts.csv",
+    "forecast_backtests.csv",
+    "forecast_metrics.csv",
+    "inventory_plan.csv"
+  ],
+  "limitations": [
+    "Forecasts are product-level models trained independently.",
+    "Forecast bands are empirical holdout-error bands, not guaranteed coverage.",
+    "Inventory risk is an approximate normal-demand calculation.",
+    "RFM segments are descriptive and are not churn probabilities."
+  ]
+}

@@ -1,0 +1,5 @@
+cluster_id,segment,customers,median_recency_days,median_orders,median_revenue,total_revenue,avg_customer_age_days,median_units
+2,Champions,296,50.5,9.0,2290.59,712306.3,653.4527027027027,18.0
+0,Recent Customers,229,55.0,6.0,1235.6200000000001,288519.43,617.2052401746724,11.0
+3,At-Risk High Value,98,230.0,6.0,1428.63,152349.59,656.2448979591836,12.0
+1,Needs Nurturing,76,180.5,3.0,540.7750000000001,43291.17,519.4868421052631,5.0

@@ -1,0 +1,10 @@
+{
+  "revenue": 1196466.49,
+  "orders": 5000,
+  "customers": 699,
+  "gross_profit": 438494.31,
+  "rows_loaded": 5000,
+  "date_min": "2024-10-30",
+  "date_max": "2026-10-29",
+  "products": 60
+}
